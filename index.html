@@ -1,1 +1,44 @@
-ECHO is on.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TEST</title>
+</head>
+<body>
+    <header>
+        <section>
+            <button id="loginButton">
+                LOGIN
+            </button>
+            <button id="registerButton">
+                REGISTER
+            </button>
+        </section>
+    </header>
+    <main>
+        <!-- LOGIN -->
+        <form id="loginForm" action="">
+            <label for="">Enter your mail:</label>
+            <input type="email" name="mailInput" id="mailInput" placeholder="Enter your email">
+            <label for="">Enter password</label>
+            <input type="password" name="passInput" id="passInput" placeholder="Enter your password">
+            <button type="submit">LOGIN</button>
+        </form>
+
+        <!-- REGISTER -->
+        <form id="registerForm" action="">
+            <label for="">Enter your mail:</label>
+            <input type="email" name="regMailInput" id="regMailInput" placeholder="Enter your email">
+            <label for="">Enter password</label>
+            <input type="password" name="regPassInput" id="regPassInput" placeholder="Enter your password">
+            <label for="">Confirm password:</label>
+            <input type="password" name="repRegPassInput" id="repRegPassInput" placeholder="Confirm your password">
+            <button type="submit">REGISTER</button>
+        </form>
+    </main>
+</body>
+</html>
+
+<script src="script.js"></script>
