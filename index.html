@@ -8,29 +8,34 @@
 </head>
 <body>
   <main>
-    <h2>S'inscrire</h2>
-    <form action="" method="post">
-  <ul>
-    <li>
-      <label for="name" class="sign-in-label">Nom:</label>
-      <input type="text" class="sign-in-input" id="name" name="name" />
-    </li>
-    <li>
-      <label for="firstname" class="sign-in-label">Prenom</label>
-      <input type="text" class="sign-in-input" id="firstname name" name="firstname">
-    </li>
-    <li>
-      <label for="email" class="sign-in-label">E-mail:</label>
-      <input type="email" class="sign-in-input" id="email" name="email" />
-    </li>
-    <li>
-      <label for="password" class="sign-in-label">Password (8 characters minimum):</label>
-      <input type="password" class="sign-in-input" id="pass" name="password" minlength="8" required />
-    </li>
-    <input type="submit" value="Sign in" />
-  </ul>
-</form>
+    <div class="sign-up-container">
+      <h2 class="sign-up-title">S'inscrire</h2>
+      <form action="" method="post" class="sign-up-form">
+        <ul>
+          <li>
+            <label for="name" class="sign-up-label">Nom</label>
+            <input type="text" class="sign-up-input" id="name" name="name" />
+          </li>
+          <li>
+            <label for="firstname" class="sign-up-label">Prenom</label>
+            <input type="text" class="sign-up-input" id="firstname name" name="firstname">
+          </li>
+          <li>
+            <label for="email" class="sign-up-label">E-mail</label>
+            <input type="email" class="sign-up-input" id="email" name="email" />
+          </li>
+          <li>
+            <label for="password" class="sign-up-label">Mot de passe (8 caractères minimum)</label>
+            <input type="password" class="sign-up-input" id="pass" name="password" minlength="8" required />
+          </li>
+          <input type="submit" value="Sign up" class="sign-up-submit"/>
+        </ul>
+      </form>
+    </div>
   </main>
+  <footer class="footer">
+    <h2> Git & GitHub 2025</h2>
+  </footer>
 
 
 </body>
