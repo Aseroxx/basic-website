@@ -80,3 +80,37 @@ form li {
   box-shadow: 0 -2px 24px rgba(80, 60, 180, 0.12);
   margin: 0;
 }
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+#loginForm {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    opacity: 1;
+}
+
+#registerForm {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    opacity: 0;
+}

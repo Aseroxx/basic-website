@@ -1,16 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TEST</title>
 </head>
 <body>
-  <main>
-    <div class="sign-up-container">
-      <h2 class="sign-up-title">S'inscrire</h2>
-      <form action="" method="post" class="sign-up-form">
+    <header>
+        <section>
+            <button id="loginButton">
+                LOGIN
+            </button>
+            <button id="registerButton">
+                REGISTER
+            </button>
+        </section>
+    </header>
+    <main>
+        <!-- LOGIN -->
+        <form id="loginForm" action="" method="post" class="sign-up-form">
+        <ul>
+          <li>
+            <label for="email" class="sign-up-label">E-mail</label>
+            <input type="email" class="sign-up-input" id="email" name="email" />
+          </li>
+          <li>
+            <label for="password" class="sign-up-label">Mot de passe:</label>
+            <input type="password" class="sign-up-input" id="pass" name="password" minlength="8" required />
+          </li>
+          <input type="submit" value="Sign in" class="sign-up-submit"/>
+        </ul>
+      </form>
+
+        <!-- REGISTER -->
+        <form id="registerForm" action="" method="post" class="sign-up-form">
         <ul>
           <li>
             <label for="name" class="sign-up-label">Nom</label>
@@ -31,12 +55,12 @@
           <input type="submit" value="Sign up" class="sign-up-submit"/>
         </ul>
       </form>
-    </div>
-  </main>
-  <footer class="footer">
-    <h2> Git & GitHub 2025</h2>
-  </footer>
-
-
+    </main>
+    <footer class="footer">
+      <h2> Git & GitHub 2025</h2>
+    </footer>
 </body>
 </html>
+
+<script src="script.js"></script>
+>>>>>>> aserox
